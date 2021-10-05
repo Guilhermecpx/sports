@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/globe.svg" type="image/x-icon">
+    <!--css bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="css/style.css">
+    <title>sports</title>
+</head>
+<body>
+<!--header-->
+<header>
+    <div class="container">
+        <div class="row py-2 links-header">
+            <div class="col-lg-6 col-md-12 d-flex justify-content-center">
+                <a href="#" class="link-header">25% Off no OUTLET!</a>
+            </div>
+            <div class="col-lg-6 col-md-12 d-flex justify-content-center">
+                <a href="#" class="link-header">Atendimento</a>
+                <a href="#" class="link-header">Meus pedidos <i class="bi bi-basket2"></i></a>
+            </div>
+        </div>
+        <div class="row align-items-center py-2">
+            <div class="col-lg-2 col-md-12 text-center">
+                <a class="navbar-brand" href="#">sports <i class="bi bi-globe"></i></a>
+            </div>
+            <div class="col-lg-8 col-md-12">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Procure por código..."
+                     aria-label="Recipient's username" aria-describedby="button-addon2">
+                    <button class="btn custom-btn" type="button" id="button-addon2"><i class="bi bi-search"></i></button>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-12 p-2">
+                <span class="texto-login">login <i class="bi bi-box-arrow-in-right"></i></span>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-xl navbar-dark custom-menu">
+        <div class="container">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a class="nav-link active dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  loja
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                  <li><a class="dropdown-item" href="#">departamentos</a></li>
+                  <li><a class="dropdown-item" href="#">novidades</a></li>
+                  <li><a class="dropdown-item" href="#">destaque</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link active dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  Brasileiros
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                  <li><a class="dropdown-item" href="#">São Paulo</a></li>
+                  <li><a class="dropdown-item" href="#">Rio de Janeiro</a></li>
+                  <li><a class="dropdown-item" href="#">Paraná</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link active dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  Internacionais
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                  <li><a class="dropdown-item" href="#">Liga espanhola</a></li>
+                  <li><a class="dropdown-item" href="#">Liga englesa</a></li>
+                  <li><a class="dropdown-item" href="#">Liga italiana</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link active dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  Seleções
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                  <li><a class="dropdown-item" href="#">América do sul</a></li>
+                  <li><a class="dropdown-item" href="#">Europa</a></li>
+                  <li><a class="dropdown-item" href="#">Ásia</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link active dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  Futebol
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                  <li><a class="dropdown-item" href="#">Artigos de futebol</a></li>
+                  <li><a class="dropdown-item" href="#">uniformes</a></li>
+                  <li><a class="dropdown-item" href="#">chuteiras</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link active dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  Treino
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                  <li><a class="dropdown-item" href="#">Roupas</a></li>
+                  <li><a class="dropdown-item" href="#">calçados</a></li>
+                  <li><a class="dropdown-item" href="#">gênero</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link active dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  Esportes
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                  <li><a class="dropdown-item" href="#">Automobilismo</a></li>
+                  <li><a class="dropdown-item" href="#">Basquete</a></li>
+                  <li><a class="dropdown-item" href="#">ciclismo</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link active dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  Casual
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                  <li><a class="dropdown-item" href="#">nike</a></li>
+                  <li><a class="dropdown-item" href="#">adidas</a></li>
+                  <li><a class="dropdown-item" href="#">kappa</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+</header>  
+
+<!--home-->
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/banner-1.jpg" class="d-block w-100" alt="banner-1">
+      </div>
+      <div class="carousel-item">
+        <img src="img/banner-2.jpg" class="d-block w-100" alt="banner-2">
+      </div>
+      <div class="carousel-item">
+        <img src="img/banner-3.jpg" class="d-block w-100" alt="banner-3">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+<!--cards-->
+<main class="container my-5">
+  <div class="row mt-3">
+    <aside class="col-lg-2 col-md-12">
+      <h3 class="texto-clubes-brasileiros mb-4">Clubes brasileiros</h3>
+      <div class="row">
+        <div class="col-lg-12 col-sm-6">
+          <h4 class="texto-categorias mb-2">categorias</h4>
+          <a href="#" class="categoria">Centro-oeste</a>
+          <a href="#" class="categoria">Espírito-santo</a>
+          <a href="#" class="categoria">Minas Gerais</a>
+          <a href="#" class="categoria">Nordeste</a>
+          <a href="#" class="categoria">Norte</a>
+          <a href="#" class="categoria">Paraná</a>
+          <a href="#" class="categoria">Rio de Janeiro</a>
+          <a href="#" class="categoria">Rio Grande</a>
+          <a href="#" class="categoria">Norte</a>
+        </div>
+        <div class="col-lg-12 col-sm-6">
+          <h4 class="texto-categorias mt-4 mb-2">marcas</h4>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="samsung" id="samsung">
+            <label class="form-check-label custom-form-label" for="samsung">
+              Adidas
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="motorola" id="motorola">
+            <label class="form-check-label custom-form-label" for="motorola">
+              Nike
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="lg" id="lg">
+            <label class="form-check-label custom-form-label" for="lg">
+              Kappa
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="asus" id="asus">
+            <label class="form-check-label custom-form-label" for="asus">
+              Umbro
+            </label>
+          </div>
+        </div>
+      </div>
+    </aside>
+    <!--cards camisas-->
+    <section class="col-lg-10">
+      <h2 class="mb-5 p-2 texto-ofertas">Ofertas do dia</h2>
+      <div class="row justify-content-center mt-3">
+        <div class="card text-center" style="width: 14rem;">
+          <img src="img/c1.jpg" class="card-img-top mt-3" alt="...">
+          <div class="card-body">
+            <p class="card-text">Camisa Kappa Vasco Respeito e Diversidade 2021 Preta</p>
+            <span class="preco-antigo">de R$ 299,99 por</span>
+            <span class="preco">R$ 269,00</span>
+            <span class="parcelamento">7x de R$ 38,56 sem juros</span>
+          </div>
+        </div>
+        <div class="card text-center" style="width: 14rem;">
+          <img src="img/c2.jpg" class="card-img-top mt-3" alt="...">
+          <div class="card-body">
+            <p class="card-text">Camisa Lobo Paysandu III 2021</p>
+            <span class="preco-antigo">de R$ 339,90 por</span>
+            <span class="preco">R$ 239,90</span>
+            <span class="parcelamento">6x de R$ 39,98 sem juros</span>
+          </div>
+        </div>
+        <div class="card text-center" style="width: 14rem;">
+          <img src="img/c3.jpg" class="card-img-top mt-3" alt="...">
+          <div class="card-body">
+            <p class="card-text">Camisa Le Coq Atlético Mineiro I 2021 Patch Libertadores</p>
+            <span class="preco-antigo">de R$ 399,99 por</span>
+            <span class="preco">R$ 329,90</span>
+            <span class="parcelamento">9x de R$ 36,66 sem juros</span>
+          </div>
+        </div>
+        <div class="card text-center" style="width: 14rem;">
+          <img src="img/c4.jpg" class="card-img-top mt-3" alt="...">
+          <div class="card-body">
+            <p class="card-text">Camisa Adidas Flamengo Pride 2021</p>
+            <span class="preco-antigo">de R$ 1999,99 por</span>
+            <span class="preco">R$ 279,00</span>
+            <span class="parcelamento"> 8x de R$ 34,99 sem juros</span>
+          </div>
+        </div>
+
+        <div class="card text-center" style="width: 14rem;">
+          <img src="img/c5.jpg" class="card-img-top mt-3" alt="...">
+          <div class="card-body">
+            <p class="card-text">Camisa Adidas Internacional II 2021 com Patrocínio</p>
+            <span class="preco-antigo">de R$ 359,90 por</span>
+            <span class="preco">R$ 299,90</span>
+            <span class="parcelamento"> 8x de R$ 37,49 sem juros</span>
+          </div>
+        </div>
+        <div class="card text-center" style="width: 14rem;">
+          <img src="img/c6.jpg" class="card-img-top mt-3" alt="...">
+          <div class="card-body">
+            <p class="card-text">Camisa Nike Corinthians Treino 2020</p>
+            <span class="preco-antigo">de R$ 299,99 por</span>
+            <span class="preco">R$ 189,90</span>
+            <span class="parcelamento"> 5x de R$ 37,98 sem juros</span>
+          </div>
+        </div>
+        <div class="card text-center" style="width: 14rem;">
+          <img src="img/c7.jpg" class="card-img-top mt-3" alt="...">
+          <div class="card-body">
+            <p class="card-text">Camisa Leão 1918 Fortaleza I 2021</p>
+            <span class="preco-antigo">de R$ 399,99 por</span>
+            <span class="preco">R$ 239,90</span>
+            <span class="parcelamento"> 6x de R$ 38,98 sem juros</span>
+          </div>
+        </div>
+        <div class="card text-center" style="width: 14rem;">
+          <img src="img/c8.jpg" class="card-img-top mt-3" alt="...">
+          <div class="card-body">
+            <p class="card-text">Camisa Dragão Premium Atlético Goianiense II 2021</p>
+            <span class="preco-antigo">de R$ 199,99 por</span>
+            <span class="preco">R$ 169,90</span>
+            <span class="parcelamento"> 4x de R$ 42,48 sem juros</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</main>
+
+<!--footer-->
+<footer class="p-3">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h4 class="texto-formas-pgto">Formas de pagamento</h4>
+        <img src="img/payments.png" alt="Formas de pagamento" width="400" class="img-fluid">
+      </div>
+    </div>
+    <hr class="linha">
+    <div class="row justify-content-center">
+      <div class="col-lg-8 col-md-10">
+        <h5 class="texto-ofertas-email"> receba ofertas com preços exclusivos</h5>
+      </div>
+    </div>
+    <div class="row g-2 mt-2 justify-content-center">
+      <div class="col-lg-3 col-md-10">
+        <input type="text" class="form-control form-control-sm" placeholder="digite o seu nome" aria-label="nome">
+      </div>
+      <div class="col-lg-3 col-md-10">
+        <input type="text" class="form-control form-control-sm" placeholder="digite o seu email" aria-label="email">
+      </div>
+      <div class="col-lg-2 col-md-10">
+        <button type="submit" class="btn btn-sm btn-light">Enviar</button>
+      </div>
+    </div>
+    <div class="row mt-5 justify-content-center">
+      <div class="col-lg-2 col-md-4 col-sm-6 ps-4 mb-5 border-end border-light">
+        <h6>INSTITUCIONAL</h6>
+        <a href="#" class="link-footer">Sobre a Sports</a>
+        <a href="#" class="link-footer">Programa de Afiliados</a>
+        <a href="#" class="link-footer">International Orders</a>
+        <a href="#" class="link-footer">esportes e lazer</a>
+        <a href="#" class="link-footer">Blog</a>
+      </div>
+      <div class="col-lg-2 col-md-4 col-sm-6 ps-4 mb-5 border-end border-light">
+        <h6>AJUDA</h6>
+        <a href="#" class="link-footer">Trocas e Devolução</a>
+        <a href="#" class="link-footer">Política de Privacidade</a>
+        <a href="#" class="link-footer">Regulamentos</a>
+
+      </div>
+      <div class="col-lg-2 col-md-4 col-sm-6 ps-4 mb-5 border-end border-light">
+        <h6 class="mt-3">CONTATO</h6>
+        <a href="#" class="link-footer">atendimento</a>
+        <a href="#" class="link-footer">meus pedidos</a>
+        <a href="#" class="link-footer">Trabalhe Conosco</a>
+        <a href="#" class="link-footer">Portal de Ajuda</a>
+      </div>
+      <div class="col-lg-2 col-md-12 col-sm-6 mb-5 ps-4">
+        <h6 class="m-0">compre pelo whatsapp</h6>
+        <span class="whatsapp-footer d-block mb-2">(00)9000-0000</span>
+        <p class="footer-p">enviamos para todo o brasil</p>
+        <p class="footer-p">compre também pelo chat online</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!--js bootstrap-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+crossorigin="anonymous"></script>
+</body>
+</html>
